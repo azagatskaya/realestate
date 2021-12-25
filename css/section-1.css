@@ -1,0 +1,58 @@
+/* ------------- Section 1 ---------- */
+.main__container {
+  height: 110vh;
+  display: flex;
+}
+.main__container-1{
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.main__aside-pic,
+.main__section-info {
+  width: 560px;
+  height: 605px;
+}
+.main__aside-pic {
+	position: relative;
+	background-image: url("../assets/img/interior-small.png"), url("../assets/img/interior-big.png");
+	background-repeat: no-repeat, no-repeat;
+	background-size: 240px 160px, 520px 560px;
+	background-position: bottom right, top left;
+}
+.aside-big-pic {
+  height: 90%;
+}
+.aside-small-pic {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+.main__section-info {
+	padding-left: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icon {
+  width: 56px;
+  height: 56px;
+}
+.main__wrapper-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main__wrapper-col-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 18vw;
+  height: 25vh;
+}
+.main__button-container{
+	height: 15vh;
+	display: flex;
+	align-items: center;
+}

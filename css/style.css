@@ -1,0 +1,161 @@
+@import "search-section.css";
+@import "section-1.css";
+@import "section-2.css";
+@import "section-3.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  color: #222222;
+}
+/* ------------ Header ----------- */
+.header {
+  height: 130px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+.header__logo {
+  width: 115px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header__pic {
+  width: 40px;
+  height: 40px;
+}
+.header__title {
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.header__container {
+  width: 50vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav__item {
+	color:#222222;
+	text-decoration: none;
+	display: block;
+  	margin: 15px;
+}
+/* -------- Buttons ----------- */
+.button {
+  color: white;
+  background-color: #19bce4;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #21b1d5;
+}
+.button:active{
+	box-shadow: inset 1px 1px 4px rgba(128, 128, 128, 0.3), inset -1px -1px 4px rgba(128, 128, 128, 0.3);
+}
+.header__login-button {
+  height: 40px;
+  width: 96px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+.main__button {
+  height: 56px;
+  font-size: 18px;
+  width: 180px;
+}
+.main__form-button {
+  border-radius: 0 !important;
+  width: 15vw;
+  height: 70px;
+  font-size: 20px;
+}
+
+/* -------------- Text ------------- */
+.main__text-block {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main__h1 {
+  color: white;
+  font-size: 76px;
+  font-weight: 700;
+}
+.main__h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.main__h3 {
+  font-size: 24px;
+}
+.main__h4{
+	font-weight: bold;
+}
+.main__text-normal {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.main__text-grey {
+  color: #555555;
+}
+.main__title-text {
+  width: 40vw;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* ------------ Main ------------- */
+.main {
+  height: 100%;
+}
+
+
+
+/* ----------- Section 4 -------------- */
+.main__wrapper-wide{
+  height: 673px;
+}
+.main__wrapper-4{
+  width: 600px;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------- Footer --------------- */
+.footer{
+  display: table-cell;
+  background-color: blue;
+  height: 100px;
+}
