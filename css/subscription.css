@@ -1,0 +1,38 @@
+/* ---------- Subscription -------- */
+.main__subscribe{
+  height: 30vh;
+  position: relative;
+}
+.main__subscribe-form{
+  margin: auto;
+  background: #19BCE4;
+  border-radius: 24px;
+  height: 25vh;
+  min-height: 200px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 7vw;
+  left: 10vw;
+}
+.main__button-wrapper{
+  background-color: #fff;
+  width: 70%;
+  height: 64px;
+  border-radius: 6px;
+  padding-left: 20px;
+  position: relative;
+}
+.main__email-input{
+  width: 70%;
+  height: 56px;
+  position: absolute;
+  top: 4px;
+  left: 20px;
+}
+.main__email-input:focus {
+  outline: none;
+}

@@ -34,12 +34,10 @@
   left: calc(50% - 70px);
   top: -70px;
 }
-
 .main__card-5 p{
   width: 80%;
   text-align: center;
 }
 .main__stars{
-  /* border: 1px solid black; */
   height: 16px;
 }

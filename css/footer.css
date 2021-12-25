@@ -1,0 +1,85 @@
+/* ------------- Footer --------------- */
+.footer{
+  background-color: #F8FDFE;
+  height: 65vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 10vw 50px 10vw;
+}
+.footer__about,
+.footer__section{
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+}
+.footer__about{
+  width: 25%;
+  justify-content: space-between;
+  
+}
+.footer__section{
+  justify-content: flex-start;
+}
+.footer__text-18{
+  font-size: 18px;
+  line-height: 27px;
+}
+.footer__section a{
+  text-decoration: none;
+  color: inherit;
+  font-style: inherit;
+  margin: 5px 0;
+}
+.footer__header{
+  margin: 12px 0px;
+}
+.footer__net-links a{
+  margin: 10px 10px 5px 0;
+}
+.footer__phone{
+  position: relative;
+  padding-left: 24px;
+}
+.footer__phone::before{
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-image: url("../assets/icon/phone.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer__email{
+  position: relative;
+  padding-left: 24px;
+}
+.footer__email::before{
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-image: url("../assets/icon/gmail.png");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer__playstore{
+  position: relative;
+  padding-left: 24px;
+}
+.footer__playstore::before{
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-image: url("../assets/icon/playstore.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

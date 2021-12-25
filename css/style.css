@@ -4,6 +4,8 @@
 @import "section-3.css";
 @import "section-4.css";
 @import "section-5.css";
+@import "subscription.css";
+@import "footer.css";
 
 * {
   padding: 0;
@@ -24,13 +26,21 @@ body {
   display: flex;
 }
 /* ------------ Logo ------------- */
-.logo{
+.header__logo, .footer__logo{
   width: 115px;
   height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.header__logo-pic, .footer__logo-pic{
+  width: 40px;
+  height: 40px;
+}
+.header__logo-title, .footer__logo-title{
+  margin-left: 6px;
+  margin-top: 6px;
 }
 /* ------------ Header ----------- */
 .header {
@@ -40,22 +50,6 @@ body {
   justify-content: space-around;
   align-items: center;
   font-size: 18px;
-}
-.header__logo {
-  /* width: 115px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; */
-}
-.header__pic {
-  width: 40px;
-  height: 40px;
-}
-.header__title {
-  margin-left: 6px;
-  margin-top: 6px;
 }
 .header__container {
   width: 50vw;
@@ -107,7 +101,12 @@ body {
 .main__button-48{
   height: 48px;
   width: 120px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 13;
 }
+
 /* -------------- Text ------------- */
 .main__text-block {
   height: 250px;
@@ -128,6 +127,7 @@ body {
 }
 .main__h3 {
   font-size: 24px;
+  line-height: 28px;
 }
 .main__h4{
 	font-weight: bold;
@@ -157,53 +157,3 @@ body {
   height: 100%;
 }
 
-.main__subscribe{
-  height: 30vh;
-  position: relative;
-}
-.main__subscribe-form{
-  margin: auto;
-  background: #19BCE4;
-  border-radius: 24px;
-  height: 25vh;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  position: absolute;
-  top: 7vw;
-  left: 10vw;
-}
-.main__email-input{
-  width: 70%;
-  height: 56px;
-}
-.main__email-input:focus {
-  outline: none;
-}
-.main__button-wrapper{
-  background-color: #fff;
-  width: 70%;
-  height: 64px;
-  border-radius: 6px;
-  padding-left: 20px;
-  position: relative;
-}
-.main__button-48{
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  z-index: 13;
-}
-/* ------------- Footer --------------- */
-.footer{
-  background-color: #F8FDFE;
-  height: 50vh;
-}
-.footer__about{
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  
-}
