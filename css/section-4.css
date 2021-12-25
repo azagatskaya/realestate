@@ -1,0 +1,18 @@
+/* ----------- Section 4 -------------- */
+.main__wrapper-wide{
+  height: 80vh;
+  width: 100vw;
+  background-color: #F8FDFE;
+  background-image: url("/assets/img/who-choose-4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 8vw 10vw;
+}
+.main__wrapper-wide p{
+  width: 35vw;
+}
