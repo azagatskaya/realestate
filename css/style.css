@@ -23,6 +23,15 @@ body {
   height: 110vh;
   display: flex;
 }
+/* ------------ Logo ------------- */
+.logo{
+  width: 115px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 /* ------------ Header ----------- */
 .header {
   height: 130px;
@@ -33,12 +42,12 @@ body {
   font-size: 18px;
 }
 .header__logo {
-  width: 115px;
+  /* width: 115px;
   height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .header__pic {
   width: 40px;
@@ -95,7 +104,10 @@ body {
   height: 70px;
   font-size: 20px;
 }
-
+.main__button-48{
+  height: 48px;
+  width: 120px;
+}
 /* -------------- Text ------------- */
 .main__text-block {
   height: 250px;
@@ -111,6 +123,7 @@ body {
 }
 .main__h2 {
   font-size: 48px;
+  line-height: 61px;
   margin-bottom: 20px;
 }
 .main__h3 {
@@ -134,15 +147,63 @@ body {
   font-size: 20px;
   line-height: 30px;
 }
-
+.main__h3-white{
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
 /* ------------ Main ------------- */
 .main {
   height: 100%;
 }
 
+.main__subscribe{
+  height: 30vh;
+  position: relative;
+}
+.main__subscribe-form{
+  margin: auto;
+  background: #19BCE4;
+  border-radius: 24px;
+  height: 25vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 7vw;
+  left: 10vw;
+}
+.main__email-input{
+  width: 70%;
+  height: 56px;
+}
+.main__email-input:focus {
+  outline: none;
+}
+.main__button-wrapper{
+  background-color: #fff;
+  width: 70%;
+  height: 64px;
+  border-radius: 6px;
+  padding-left: 20px;
+  position: relative;
+}
+.main__button-48{
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  z-index: 13;
+}
 /* ------------- Footer --------------- */
 .footer{
-  display: table-cell;
-  background-color: blue;
-  height: 100px;
+  background-color: #F8FDFE;
+  height: 50vh;
+}
+.footer__about{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  
 }
