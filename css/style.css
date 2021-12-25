@@ -2,6 +2,8 @@
 @import "section-1.css";
 @import "section-2.css";
 @import "section-3.css";
+@import "section-4.css";
+@import "section-5.css";
 
 * {
   padding: 0;
@@ -14,7 +16,12 @@
 body {
   font-family: "Rubik", sans-serif;
   font-size: 14px;
+  line-height: 20px;
   color: #222222;
+}
+.main__container {
+  height: 110vh;
+  display: flex;
 }
 /* ------------ Header ----------- */
 .header {
@@ -132,26 +139,6 @@ body {
 .main {
   height: 100%;
 }
-
-
-
-/* ----------- Section 4 -------------- */
-.main__wrapper-wide{
-  height: 673px;
-}
-.main__wrapper-4{
-  width: 600px;
-  height: 100%;
-}
-
-
-
-
-
-
-
-
-
 
 /* ------------- Footer --------------- */
 .footer{
