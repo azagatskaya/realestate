@@ -26,7 +26,8 @@ body {
   display: flex;
 }
 /* ------------ Logo ------------- */
-.header__logo, .footer__logo{
+.header__logo,
+.footer__logo {
   width: 115px;
   height: 40px;
   display: flex;
@@ -34,11 +35,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.header__logo-pic, .footer__logo-pic{
+.header__logo-pic,
+.footer__logo-pic {
   width: 40px;
   height: 40px;
 }
-.header__logo-title, .footer__logo-title{
+.header__logo-title,
+.footer__logo-title {
   margin-left: 6px;
   margin-top: 6px;
 }
@@ -64,10 +67,10 @@ body {
   align-items: center;
 }
 .nav__item {
-	color:#222222;
-	text-decoration: none;
-	display: block;
-  	margin: 15px;
+  color: #222222;
+  text-decoration: none;
+  display: block;
+  margin: 15px;
 }
 /* -------- Buttons ----------- */
 .button {
@@ -78,8 +81,9 @@ body {
 .button:hover {
   background-color: #21b1d5;
 }
-.button:active{
-	box-shadow: inset 1px 1px 4px rgba(128, 128, 128, 0.3), inset -1px -1px 4px rgba(128, 128, 128, 0.3);
+.button:active {
+  box-shadow: inset 1px 1px 4px rgba(128, 128, 128, 0.3),
+    inset -1px -1px 4px rgba(128, 128, 128, 0.3);
 }
 .header__login-button {
   height: 40px;
@@ -98,7 +102,7 @@ body {
   height: 70px;
   font-size: 20px;
 }
-.main__button-48{
+.main__button-48 {
   height: 48px;
   width: 120px;
   position: absolute;
@@ -129,8 +133,8 @@ body {
   font-size: 24px;
   line-height: 28px;
 }
-.main__h4{
-	font-weight: bold;
+.main__h4 {
+  font-weight: bold;
 }
 .main__text-normal {
   font-size: 20px;
@@ -147,7 +151,7 @@ body {
   font-size: 20px;
   line-height: 30px;
 }
-.main__h3-white{
+.main__h3-white {
   font-size: 40px;
   color: white;
   font-weight: 700;
@@ -156,4 +160,3 @@ body {
 .main {
   height: 100%;
 }
-

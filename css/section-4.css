@@ -1,9 +1,9 @@
 /* ----------- Section 4 -------------- */
-.main__wrapper-wide{
-  height: 80vh;
+.main__wrapper-wide {
+  height: 90vh;
   width: 100vw;
-  background-color: #F8FDFE;
-  background-image: url("/assets/img/who-choose-4.png");
+  background-color: #f8fdfe;
+  background-image: url("../assets/img/who-choose-4.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom right;
@@ -13,6 +13,8 @@
   margin: auto 0;
   padding: 8vw 10vw;
 }
-.main__wrapper-wide p{
-  width: 35vw;
+.main__wrapper-wide p {
+  width: 40vw;
+  max-width: 55vw;
+  max-height: 50%;
 }
